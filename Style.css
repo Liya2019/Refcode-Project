@@ -1,0 +1,43 @@
+
+  body {
+    background-image: linear-gradient(pink, lavender);
+  }
+  .h1 {
+    background:red;
+  }
+  .pic {
+    width: 200px;
+  }
+  .nav li {
+    margin-right: 10px;
+    float: right;
+    display: inline-block;
+    font-weight: bold;
+    font-style: normal;
+    font-style: 40px;
+    padding: 20px;
+    margin-top: 10px;
+  }
+
+  #contact {
+    background-image: url(Contactbackground.jpg);
+ }
+
+#links-nav li {
+  display: inline-block;
+  font-weight: bold;
+}
+
+
+
+
+.home {
+  background-image:url(Bluesky.JPG);
+background-size: 100% 100%;
+
+}
+
+.links {
+  background-color: lightblue;
+
+}
