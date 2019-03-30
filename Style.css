@@ -1,10 +1,6 @@
 
-  body {
-    background-image: linear-gradient(pink, lavender);
-  }
-  .h1 {
-    background:red;
-  }
+
+
   .pic {
     width: 200px;
   }
@@ -22,18 +18,22 @@
   #contact {
     background-image: url(contactbackground.jpg);
  }
-
-.home {
-  background-image:url(Bluesky.JPG);
-background-size: 100% 100%;
-
+#Index{
+  background-image: linear-gradient(pink, lavender);
 }
+
+
 #Resume {
 
   background-image: linear-gradient(lime, lightblue);
 }
 
-.links {
-  background-color: lightblue;
+
+#Links {
+background-image: linear-gradient(pink, lavender);
+}
+#About{
+  background-image: linear-gradient(pink, lavender);
+
 
 }
