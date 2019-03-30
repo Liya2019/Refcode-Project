@@ -11,7 +11,7 @@
   .nav li {
     margin-right: 10px;
     float: right;
-    display: inline-block;
+    display: inline;
     font-weight: bold;
     font-style: normal;
     font-style: 40px;
@@ -20,21 +20,17 @@
   }
 
   #contact {
-    background-image: url(Contactbackground.jpg);
+    background-image: url(contactbackground.jpg);
  }
-
-#links-nav li {
-  display: inline-block;
-  font-weight: bold;
-}
-
-
-
 
 .home {
   background-image:url(Bluesky.JPG);
 background-size: 100% 100%;
 
+}
+#Resume {
+
+  background-image: linear-gradient(lime, lightblue);
 }
 
 .links {
