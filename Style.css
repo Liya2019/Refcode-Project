@@ -4,9 +4,11 @@
   .pic {
     width: 200px;
   }
+  .nav {
+    text-align: right;
+  }
   .nav li {
     margin-right: 10px;
-    float: right;
     display: inline;
     font-weight: bold;
     font-style: normal;
