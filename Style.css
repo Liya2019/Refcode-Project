@@ -1,8 +1,16 @@
 
 
+body {
 
+}
   .pic {
     width: 200px;
+    .p {
+
+    }
+  }
+  .nav{
+    text-align: right;
   }
   .nav {
     text-align: right;
@@ -15,27 +23,78 @@
     font-style: 40px;
     padding: 20px;
     margin-top: 10px;
+  margin-top: 20px;
+  list-style-type: none;
+  text-decoration: none;
+  color: white
+  border:1px solid #fff;
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  text-align: left;
+
   }
 
   #contact {
     background-image: url(contactbackground.jpg);
  }
 #Index{
-  background-image: linear-gradient(pink, lavender);
-}
+  background-image: url(li.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
 
+
+}
+.quote{
+  font-style: oblique;
+  color:#black;
+  font-weight: bold;
+  margin-right: 300px;
+  float: right;
+  font-size: 20px;
+
+}
+.studentlinks {
+  list-style-type: none;
+ text-align: center;
+ margin-top: 10px;
+ float: left;
+ position: absolute;
+ top: 25%;
+ left: 37%;
+}
 
 #Resume {
 
-  background-image: linear-gradient(lime, lightblue);
+  background-image: linear-gradient(lightblue, lime);
 }
 
 
 #Links {
 background-image: linear-gradient(pink, lavender);
+
+
+
 }
 #About{
   background-image: linear-gradient(pink, lavender);
+  position: absolute;
 
+}
+footer {
+  position: absolute;
+  top: 95%;
+}
 
+header{
+  background: #91C2D0;
+  height: 60px;
 }
