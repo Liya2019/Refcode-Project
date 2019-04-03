@@ -45,8 +45,8 @@ body {
 
 }
 .quote{
-  font-style: italic;
-  color:#1E90FF;
+  font-style: oblique;
+  color:#black;
   font-weight: bold;
   margin-right: 300px;
   float: right;
