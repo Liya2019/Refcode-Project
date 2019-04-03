@@ -12,7 +12,17 @@ body {
   .nav{
     text-align: right;
   }
+  .nav {
+    text-align: right;
+  }
   .nav li {
+    margin-right: 10px;
+    display: inline;
+    font-weight: bold;
+    font-style: normal;
+    font-style: 40px;
+    padding: 20px;
+    margin-top: 10px;
   margin-top: 20px;
   list-style-type: none;
   text-decoration: none;
@@ -30,7 +40,6 @@ body {
   text-decoration: none;
   color: white;
   text-align: left;
-
 
   }
 
