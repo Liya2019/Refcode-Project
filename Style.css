@@ -45,6 +45,7 @@ body {
 
   #contact {
     background-image: url(contactbackground.jpg);
+
  }
 #Index{
   background-image: url(li.jpg);
@@ -74,7 +75,7 @@ body {
 
 #Resume {
 
-  background-image: linear-gradient(lightblue, lime);
+  background-image: linear-gradient(lightblue, gray);
 }
 
 
@@ -97,4 +98,9 @@ footer {
 header{
   background: #91C2D0;
   height: 60px;
+}
+#Video{
+text-align: center;
+background-image: linear-gradient(gray, lavender, pink);
+background-size: 100%, 100%;
 }
