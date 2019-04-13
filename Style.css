@@ -5,46 +5,66 @@ body {
 }
   .pic {
     width: 200px;
-    .p {
+    margin-top: 0px;
+    position: absolute;
+    height: 300px;
+    float: left;
 
-    }
-  }
-  .nav{
-    text-align: right;
-  }
+}
+
   .nav {
     text-align: right;
   }
-  .nav li {
-    margin-right: 10px;
-    display: inline;
-    font-weight: bold;
-    font-style: normal;
-    font-style: 40px;
-    padding: 20px;
-    margin-top: 10px;
-  margin-top: 20px;
+.nav li {
+  margin-right: 10px;
   list-style-type: none;
-  text-decoration: none;
-  color: white
   border:1px solid #fff;
   display: inline-block;
   list-style-type: none;
-  text-decoration: none;
   font-weight: bold;
-  font-style: normal;
   font-size: 20px;
   padding: 10px;
   margin-top: 10px;
   position: relative;
   text-decoration: none;
   color: white;
-  text-align: left;
+  transition: 0.6s ease;
+  border: 1px solid transparent;
+}
+.story{
+  color: black;
+  font-size:18px;
+  /* font-size:px; */
+  /* font-weight: bold; */
+  width: 50%;
+float: center;
+height: 250px;
+margin-left: 0px;
+margin-right: 40px;
+margin-top: 0px;
+}
+.h1{
+  position: relative;
+  color:red;
+  display: block;
 
-  }
+}
+.story2{
+  font-size: 25px;
+  margin-top: 0px;
+}
 
   #contact {
     background-image: url(contactbackground.jpg);
+    text-align: center;
+    font-weight: 600;
+    margin-top: 30px;
+    font-size: 20px;
+    background-position: center;
+    display: block;
+    padding: 25px;
+
+
 
  }
 #Index{
@@ -56,11 +76,14 @@ body {
 }
 .quote{
   font-style: oblique;
-  color:#black;
+  color: black;
   font-weight: bold;
   margin-right: 300px;
   float: right;
-  font-size: 20px;
+  font-size: 18px;
+  display: block;
+
+
 
 }
 .studentlinks {
@@ -82,12 +105,22 @@ body {
 #Links {
 background-image: linear-gradient(pink, lavender);
 
-
+}
+.table{
+  margin: auto;
+  text-align: center;
 
 }
 #About{
   background-image: linear-gradient(pink, lavender);
   position: absolute;
+
+}
+.pic2{
+  width: 300px;
+
+  float: right;
+  margin-left: 30px;
 
 }
 footer {
@@ -104,3 +137,34 @@ text-align: center;
 background-image: linear-gradient(gray, lavender, pink);
 background-size: 100%, 100%;
 }
+.Rs{
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  font-size: 30px;
+  color: red;
+  font-family: comic;
+  font-weight: bold;
+
+}
+.subnav{
+  position:absolute;
+  padding: 0;
+  text-align: left;
+  left: 0;
+  display: none;
+
+}
+.nav li:hover .subnav{
+  display:inline-block;
+}
+.welcome{
+  text-rendering: geometricPrecision;
+  text-align: center;
+}
+h1 {
+    font-size: 30px;
+    color: red;
+  }
